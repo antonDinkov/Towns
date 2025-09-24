@@ -39,7 +39,8 @@ function addTown() {
 
     $('#towns').append($('<option>').text(townName));
 
-    $('#result').text(townName + " added.");
+    // $('#result').text(townName + " added.");
+    showMessage(townName + " added.");
 
 }
 
@@ -53,7 +54,8 @@ function shuffleTowns() {
 
     $('#towns').append(towns);
 
-    $('#result').text("Towns shuffled.");
+    // $('#result').text("Towns shuffled.");
+    showMessage("Towns shuffled.");
 
 
 
